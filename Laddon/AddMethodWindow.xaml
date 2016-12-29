@@ -1,0 +1,31 @@
+﻿<Window x:Class="MTA.Laddon.AddMethodWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="AddMethod" Height="413.91" Width="350">
+    <ScrollViewer>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Stretch">
+            <StackPanel Orientation="Horizontal" Margin="10, 10, 0, 10" HorizontalAlignment="Stretch">
+                <TextBlock x:Name="lblMethodName">Method Name</TextBlock>
+                <TextBox x:Name="txtMethodName" Margin="20,0,0,0" Width="200"/>
+            </StackPanel>
+
+            <TextBlock Margin="10, 10, 0, 10" x:Name="lblIn">
+                Input parameters:
+            </TextBlock>
+            <StackPanel Orientation="Vertical" Margin="10, 5, 0, 10" x:Name="pnlIns">
+            </StackPanel>
+
+            <TextBlock Margin="10, 10, 0, 10" x:Name="lblOut">
+                Output parameters:
+            </TextBlock>
+            <StackPanel Orientation="Vertical" Margin="10, 10, 0, 10" x:Name="pnlOuts">
+            </StackPanel>
+
+            
+
+            <Button x:Name="btnAddMethod" Click="btnAddMethod_Click" Width="80" Margin="10,20,0,0" HorizontalAlignment="Left">
+                <TextBlock Text="Extract"/>
+            </Button>
+        </StackPanel>
+    </ScrollViewer>
+</Window>

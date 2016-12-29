@@ -1,0 +1,12 @@
+﻿<Window x:Class="MTA.Laddon.RenameWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="RenameWindow" Height="300" Width="300">
+    <Grid>
+        <TextBlock Text="Old name:" Margin="5,35" />
+        <TextBox Name="txtOldName" IsReadOnly="true"  Margin="78,30,34,205" />
+        <TextBlock Text="New name:" Margin="5, 75" />
+        <TextBox Name="txtNewName" Margin="78,70,34,165" />
+        <Button Name="btnRename" Margin="141,200,20,22" Click="btnRename_Click">Rename</Button>
+    </Grid>
+</Window>

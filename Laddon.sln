@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laddon", "Laddon\Laddon.csproj", "{35C14877-8F09-45C8-AC69-9FE0CEDDC488}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{520A183C-78EB-4B81-AD40-AF1660D5BA4A}"
+	ProjectSection(SolutionItems) = preProject
+		IntegrationTests.testsettings = IntegrationTests.testsettings
+		UnitTests.testsettings = UnitTests.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DafnyCodeGen", "DafnyCodeGen\DafnyCodeGen.csproj", "{81A74D29-E370-400E-8E4A-2B8908FB696A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DafnyAnalyzer", "DafnyAnalyzer\DafnyAnalyzer.csproj", "{F8AF67B0-28D5-440D-A8F8-CD24A48C5BC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DafnyRefactoringEngine", "DafnyRefactoringEngine\DafnyRefactoringEngine.csproj", "{605AF4B3-E891-49BF-A872-EAD6A19DF39D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{F5359E44-00A7-48A7-8068-F42034DA7729}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://jonatanvolkov.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Laddon\\Laddon.csproj
+		SccProjectName1 = Laddon
+		SccLocalPath1 = Laddon
+		SccProjectUniqueName2 = DafnyCodeGen\\DafnyCodeGen.csproj
+		SccProjectName2 = DafnyCodeGen
+		SccLocalPath2 = DafnyCodeGen
+		SccProjectUniqueName3 = DafnyAnalyzer\\DafnyAnalyzer.csproj
+		SccProjectName3 = DafnyAnalyzer
+		SccLocalPath3 = DafnyAnalyzer
+		SccProjectUniqueName4 = DafnyRefactoringEngine\\DafnyRefactoringEngine.csproj
+		SccProjectName4 = DafnyRefactoringEngine
+		SccLocalPath4 = DafnyRefactoringEngine
+		SccProjectUniqueName5 = Common\\Common.csproj
+		SccProjectName5 = Common
+		SccLocalPath5 = Common
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35C14877-8F09-45C8-AC69-9FE0CEDDC488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35C14877-8F09-45C8-AC69-9FE0CEDDC488}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35C14877-8F09-45C8-AC69-9FE0CEDDC488}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35C14877-8F09-45C8-AC69-9FE0CEDDC488}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81A74D29-E370-400E-8E4A-2B8908FB696A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81A74D29-E370-400E-8E4A-2B8908FB696A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81A74D29-E370-400E-8E4A-2B8908FB696A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81A74D29-E370-400E-8E4A-2B8908FB696A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8AF67B0-28D5-440D-A8F8-CD24A48C5BC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8AF67B0-28D5-440D-A8F8-CD24A48C5BC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8AF67B0-28D5-440D-A8F8-CD24A48C5BC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8AF67B0-28D5-440D-A8F8-CD24A48C5BC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{605AF4B3-E891-49BF-A872-EAD6A19DF39D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{605AF4B3-E891-49BF-A872-EAD6A19DF39D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{605AF4B3-E891-49BF-A872-EAD6A19DF39D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{605AF4B3-E891-49BF-A872-EAD6A19DF39D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5359E44-00A7-48A7-8068-F42034DA7729}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5359E44-00A7-48A7-8068-F42034DA7729}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5359E44-00A7-48A7-8068-F42034DA7729}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5359E44-00A7-48A7-8068-F42034DA7729}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
